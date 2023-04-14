@@ -9,8 +9,10 @@ POST /api/socks/income - регистрирует приход носков на
 POST /api/socks/outcome - регистрирует отпуск носков со склада.     
 GET /api/socks - возвращает общее количество носков на складе, по критериям запроса.     
 **Примеры запросов:**     
-/api/socks?color=red&operation=moreThan&cottonPart=90 — возвращает общее количество красных носков с долей хлопка более 90%;     
-/api/socks?color=black&operation=lessThan?cottonPart=10 — возвращает общее количество черных носков с долей хлопка менее 10%.    
+/api/socks?color=red&operation=moreThan&cottonPart=90 -    
+возвращает общее количество красных носков с долей хлопка более 90%;     
+/api/socks?color=black&operation=lessThan?cottonPart=10 -    
+возвращает общее количество черных носков с долей хлопка менее 10%.    
 #### В проекте используются:
 Backend: Java 17, Maven, Spring Framework, Spring Boot.    
 База данных: PostgreSQL, Liquibase, БД расположена на ElephantSQL.
