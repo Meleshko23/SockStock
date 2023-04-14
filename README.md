@@ -15,7 +15,9 @@ GET /api/socks - возвращает общее количество носко
 возвращает общее количество черных носков с долей хлопка менее 10%.    
 #### В проекте используются:
 Backend: Java 17, Maven, Spring Framework, Spring Boot.    
-База данных: PostgreSQL, Liquibase, БД расположена на ElephantSQL.
+База данных: PostgreSQL, Liquibase, БД расположена на ElephantSQL.    
+Приложение развернуто на railway.app: sockstock-production.up.railway.app
+
 
 
 
